@@ -24,7 +24,7 @@ requirements:
   host:
     - pip
     - python ${{ python_min }}.*
-    - setuptools
+    - setuptools <80
   run:
     - dataclasses ==0.6
     - google-api-python-client ==1.8.0
